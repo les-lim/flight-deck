@@ -66,7 +66,7 @@ services:
   #     - ./src:/var/www/html:cached
   #     - ./config:/var/www/config:cached
   #     - ./db-backups:/var/www/db-backups:cached
-  ## Webgrind lets you example XDebug profiling files without kcachegrind.
+  ## Webgrind lets you examine XDebug profiling files without kcachegrind.
   #
   # webgrind:
   #   image: clue/webgrind
