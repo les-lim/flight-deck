@@ -31,3 +31,12 @@ services:
     #  PHP_XDEBUG_AUTOSTART: 1
     #  PHP_XDEBUG_PROFILE_TRIGGER: XDEBUG_PROFILE
     #  PHP_XDEBUG_REMOTE_HOST: docker.for.mac.localhost
+## If you wish to specify the subnet that the Docker network will operate on,
+## uncomment and configure below:
+#networks:
+#  default:
+#    driver: bridge
+#    ipam:
+#      driver: default
+#      config:
+#      - subnet:  10.107.1.1/24
