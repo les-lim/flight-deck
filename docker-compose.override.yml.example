@@ -16,6 +16,9 @@ services:
     ## Since XDebug can be a performance drain -- particularly on non-linux --
     ## You can choose to enable by uncommenting the below:
     environment:
+      PHP_MAX_EXEC_TIME: 120
+      PHP_MAX_INPUT_VARS: 3000
+      PHP_MEMORY_LIMIT: 320M
     ## Some versions of Docker have problems displaying the correct terminal size.
     #  COLUMNS: 80
     ## Enable XDebug (Linux):
